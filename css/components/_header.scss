@@ -1,0 +1,108 @@
+header {
+  width: 100%;
+  height: 60px;
+}
+header nav {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 30% 50% 20%;
+}
+
+.menuContainer {
+  grid-column: 1;
+  margin-left: 10px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logoContainer {
+  width: 10%;
+  min-width: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.menuContainer .logoContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.menuText {
+  height: 70%;
+  padding: 12px 8px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.menuText:hover {
+  font-style: italic;
+  color: $colorOscuro;
+  background-color: transparent;
+  border: 1px solid $colorPrincipal;
+}
+.selected {
+  background-color: $colorOscuro;
+  color: $colorClaro;
+}
+.browserContainer {
+  grid-column: 2;
+  height: auto;
+}
+.optionsContainer {
+  grid-column: 3;
+  height: auto;
+}
+.searchContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.searchBar {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  background-color: $colorbackground;
+  border-radius: 30px;
+}
+.searchIconContainer {
+  width: 5%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchIconContainer img {
+  width: 50%;
+  height: 50%;
+  opacity: 50%;
+  object-fit: contain;
+}
+.searchBar input {
+  width: 95%;
+  height: 100%;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.optionsContainer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.optionsiconContainer {
+  width: 24%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.optionsiconContainer img {
+  width: 40%;
+  opacity: 50%;
+  object-fit: contain;
+}
