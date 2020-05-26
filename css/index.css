@@ -134,10 +134,18 @@ header nav {
   header nav {
     grid-template-columns: 30% 50% 20%;
   }
+
+  .optionsiconContainer img {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 780px) {
   header nav {
     grid-template-columns: 20% 60% 20%;
+  }
+
+  .searchIconContainer {
+    display: none;
   }
 
   .menuText {
@@ -146,6 +154,10 @@ header nav {
 
   .menuText.selected {
     display: initial;
+  }
+
+  .optionsiconContainer img {
+    width: 70%;
   }
 }
 @media screen and (max-width: 500px) {
