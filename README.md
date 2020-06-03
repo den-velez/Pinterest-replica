@@ -5,7 +5,7 @@
   [GitHub Pages] (https://den-velez.github.io/Pinterest-replica/)
   
 ### Stack
-  -HTML
-  -CSS
-  -Prepos (https://prepros.io) 
+  - HTML
+  - CSS
+  - Prepos (https://prepros.io) 
   
